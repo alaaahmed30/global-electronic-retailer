@@ -6,11 +6,9 @@ An interactive Power BI dashboard analyzing the sales performance, profitability
 
 The project transforms raw transactional, customer, and product data into an interactive business intelligence report that allows users to explore performance across different years, categories, brands, countries, and customer segments.
 
-> **Note:** The business questions and analysis objectives in this project were self-defined based on the available dataset.
-
 ---
 
-## 🎯 Business Questions
+##  Business Questions
 
 The dashboard was designed to answer the following questions:
 
@@ -39,7 +37,7 @@ The dashboard was designed to answer the following questions:
 
 ---
 
-## 📌 Dashboard Pages
+##  Dashboard Pages
 
 ### Page 1 — Sales Performance
 
@@ -96,7 +94,7 @@ The geographic analysis uses the following drill-down hierarchy:
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+##  Data Cleaning & Preparation
 
 Data preparation was performed using **Power Query**.
 
@@ -126,9 +124,9 @@ The report uses a dimensional data model consisting of:
 - `fact_sales`
 - `dim_products`
 - `dim_customers`
-- `DateTable`
-
-The `DateTable` is connected to the sales fact table through the order date and is used for time-based analysis such as:
+- `dim_date`
+- `dim_stores`
+The `dim_date` is connected to the sales fact table through the order date and is used for time-based analysis such as:
 
 - Year
 - Month
@@ -140,7 +138,7 @@ The model uses relationships between the sales fact table and customer/product d
 
 ---
 
-## 🧮 Key DAX Measures
+##  Key DAX Measures
 
 ### Total Sales
 
@@ -234,7 +232,7 @@ DIVIDE(
 
 ---
 
-## 🔍 Analysis Areas
+##  Analysis Areas
 
 The dashboard allows users to investigate:
 
@@ -252,7 +250,7 @@ All measures dynamically respond to the available filters and slicers.
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 - **Microsoft Power BI**
 - **Power Query** — data cleaning and transformation
@@ -280,10 +278,8 @@ Global-Electronics-Retailer/
 │
 ├── README.md
 ├── Global Electronics Retailer.pbix
-│
-└── images/
-    ├── sales-performance.png
-    └── customer-operations.png
+└── global-electronic-retailer.mp4
+
 ```
 
 ---
