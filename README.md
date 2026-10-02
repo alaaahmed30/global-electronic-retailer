@@ -1,6 +1,6 @@
 # Global Electronics Retailer — Power BI Dashboard
 
-## 📊 Project Overview
+##  Project Overview
 
 An interactive Power BI dashboard analyzing the sales performance, profitability, customer distribution, brand performance, and delivery operations of a global electronics retailer.
 
@@ -117,7 +117,7 @@ For delivery-time analysis, only transactions with an actual delivery date were 
 
 ---
 
-## 🏗️ Data Model
+##  Data Model
 
 The report uses a dimensional data model consisting of:
 
@@ -259,17 +259,7 @@ All measures dynamically respond to the available filters and slicers.
 
 ---
 
-## 📷 Dashboard Preview
 
-### Sales Performance
-
-![Sales Performance Dashboard](images/sales-performance.png)
-
-### Customers & Operations
-
-![Customers and Operations Dashboard](images/customer-operations.png)
-
----
 
 ## 📁 Project Structure
 
@@ -284,7 +274,7 @@ Global-Electronics-Retailer/
 
 ---
 
-## 📚 Dataset
+##  Dataset
 
 **Global Electronics Retailer — Maven Analytics Data Playground**
 
